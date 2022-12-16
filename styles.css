@@ -1,0 +1,83 @@
+/* styles for index.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+    border-top: 3px solid #111;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+.top-header-right img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.experience h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #73808D;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.experience-item > * {
+    margin: 5px 0;
+}
+
+.experience-item .duration {
+    font-size: .8rem;
+    font-weight: 500;
+    color: #73808D;
+}
+
+.experience-item p:last-child {
+    width: 500px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.right-side > * {
+    margin-bottom: 30px;
+}
+
+.right-side p, .right-side .title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #73808D;
+    padding: 5px 0;
+}
+
+.right-side .title {
+    font-weight: 800;
+}
