@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.querySelector("#title").addEventListener("click", e => {
    const color = "#" + Math.floor(Math.random() * 16777215).toString(16);
    document.querySelector(".container").style.color = color; 
@@ -12,4 +13,9 @@ main.style.marginTop = `150px`;
 // Add a listener to the header element that updates the margin of the main element when the header's height changes
 window.addEventListener('resize', () => {
   main.style.marginTop = `${header.offsetHeight + 50}px`;
+=======
+document.querySelector("#title").addEventListener("click", e => {
+   const color = "#" + Math.floor(Math.random() * 16777215).toString(16);
+   document.querySelector(".container").style.color = color; 
+>>>>>>> 21d08dc8c7622d7d2b06fa39813c42d35bd560f9
 });
